@@ -1,11 +1,11 @@
 #include <WiFi.h>;
 #include <HTTPClient.h>;
 
-const char* ssid = "ampere";
-const char* password =  "espertap";
+const char* ssid = "your ssid name";
+const char* password =  "your wifi password";
 
-const char* ifttt_event =  "noti_line";
-const char* ifttt_key =  "cTeceGLklSgEuOqrnnO1by";
+const char* ifttt_event =  "your event name";
+const char* ifttt_key =  "your ifttt key";
 
 uint32_t pevTime = 0;
 int value1, value2, value3;
